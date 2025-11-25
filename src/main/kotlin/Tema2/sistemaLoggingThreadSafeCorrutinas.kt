@@ -11,6 +11,8 @@ data class LogEvent(
 )
 
 class Logger{
-    val Channel<LogEvent>
+    val chanel = Channel<LogEvent>()
+
 }
+
 
