@@ -4,9 +4,9 @@ package org.example.Tema1
 fun main() {
     // PREPARAMOS UN PROCESO PARA EJECUTAR UN COMANDO
 
-    //val pb = ProcessBuilder("comadofallido")
+     val pb = ProcessBuilder("powerShell","comadofallido")
     //val pb = ProcessBuilder("cmd","/c","dir")
-    val pb = ProcessBuilder("cmd.exe", "/c", "echo ¡Mensaje CORRECTO! & type archivo_que_no_existe.txt")
+    //val pb = ProcessBuilder("cmd.exe", "/c", "echo ¡Mensaje CORRECTO! & type archivo_que_no_existe.txt")
 
 
     // SEPARACIÓN DE CANALES
